@@ -52,28 +52,12 @@
     margin-right: 80px;
 }
 
-.but1{
-    background-color: white;
-    transition: 0.3s ease-in;
-    border: 2px solid #b4111a;;
-    color: #b4111a;
-    cursor: pointer;
-    height: 44px;
-    width: 150px;
-}
-
-.but1:hover{
-    background-color: #b4111a;
-    border: 2px solid #b4111a;
-    color: white;
-    transition: 0.3s ease-out;
-}
-
 .but2{
     background-color: #b4111a;
     border-color: #b4111a;
     border: transparent solid;
     color: white;
+    font-weight: bold;
     transition: 0.3s ease-in;
     cursor: pointer;
     height: 44px;
@@ -84,6 +68,7 @@
     background-color: white;
     border: 2px solid #b4111a;
     color: #b4111a;
+    font-weight: bold;
     transition: 0.3s ease-out  ;
 }
 button{
@@ -140,10 +125,47 @@ button{
     height: 40px;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    /* min-width: 160px; */
+    width: 200px;
+    /* height: 195px; */
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: end;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #b4131b;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
 .aboutUs-section, .vision-section{
     display: flex;
     margin-top: 100px;
-    gap: 30px;    
+    gap: 50px;    
 }
 
 .aboutUs-content{
