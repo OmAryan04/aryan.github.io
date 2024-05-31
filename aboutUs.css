@@ -92,7 +92,7 @@ button{
 }
 
 .section{
-    background-image: url(image/img53.webp);
+    background-image: url(/image/img53.webp);
     background-size: cover; /* Ensures the image covers the entire container */
     background-position: center; /* Centers the image */
     position: relative; /* Allows positioning of child elements */
@@ -140,7 +140,7 @@ button{
     height: 40px;
 }
 
-.aboutUs-section{
+.aboutUs-section, .vision-section{
     display: flex;
     margin-top: 100px;
     gap: 30px;    
@@ -152,8 +152,31 @@ button{
     height: 305px;
     font-family: poppins;
 }
-.aboutUs-head{
+.aboutUs-head, .vision-head{
     font-size: 40px;
     font-weight: 600;
     font-family: poppins;
+}
+
+.aboutUs-img{
+    padding: 2px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vision-content{
+    margin-left: 200px;
+    width: 510px;
+    height: auto;
+    font-family: poppins;
+}
+
+.vision-head2{
+    /* margin-top: 50px; */
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    
 }
