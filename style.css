@@ -307,7 +307,8 @@ button{
     outline: none;
     cursor: pointer;
     padding: 20px;
-    font-size: 18px;    
+    font-size: 18px;
+    background-color: white;
 }
 
 .tab_container .tab_content{
