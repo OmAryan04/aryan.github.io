@@ -35,6 +35,8 @@
 .Navbar{
     display: flex;
     gap: 30px;
+    font-family: poppins;
+    font-weight: 500;
     /* padding: 3rem; */
     /* margin: auto; */
     /* align-self: center; */
